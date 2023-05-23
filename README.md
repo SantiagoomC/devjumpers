@@ -126,6 +126,26 @@ Esto es porqué la rama v0.2 ya ha sido fusionada con la master, a diferencia de
 
 Ahora, si observamos la respuesta que nos brinda el comando  **- -no-merged** también vemos diferencia en ambas ramas. En la rama **master** observamos que la respuesta está vacía debido a que la única rama que disponemos ya ha sido fusionada con éxito y no tenemos otra rama y sí observamos la respuesta desde la rama **v0.2** veremos que sólo está el nombre de la rama **master** debido a que no la hemos usado para fusionarla estando en  la rama **v0.2**.
 
+##### Borrar rama:
+
+Para eliminar la rama, como sugerencia podemos hacer el push que consideremos necesario al repositorio para que el GIT no lo detecte como que falta algo pendiente por realizar, ya que como punto a tener en cuenta, git me indicaba eliminar la rama de manera forzada debido a que había un commit pendiente sin subir, entonces si se ve necesario subir el commit, se puede hacer el push, sino se podría eliminar de manera forzada usando el comando **git branch -D [nombreDeLaRama]**
+
+De lo contrario lo podemos hacer con la d en minúscula, **git branch -d [v0.2]**
+
+### Comandos utilizados en el proceso:
+
+**1. git clone [[repositorioAClonar](https://github.com/SantiagoomC/devjumpers.git "repositorioAClonar")] **
+**1. cd [nombreDeLaCarpeta] **
+**2. touch README.md**
+**3. touch 1.txt**
+**4. git checkout -b v0.2**
+**5. touch 2.txt**
+**6. git merge v0.2**
+**7. echo "Hola" > 1.txt**
+**8. echo "Adios" > 1.txt**
+**9. git branch --merged**
+**10. git branch --no-merged**
+**11. git branch -d v0.2**
 
 
 
@@ -147,4 +167,3 @@ Ahora, si observamos la respuesta que nos brinda el comando  **- -no-merged** ta
 |  NOMBRE | GITHUB  |
 | :------------: | :------------: |
 |  Stiven Berrio | [github.com/StivenBerrio](https://github.com/StivenBerrio "github.com/StivenBerrio")  |
-
