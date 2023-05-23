@@ -134,18 +134,18 @@ De lo contrario lo podemos hacer con la d en minúscula, **git branch -d [v0.2]*
 
 ### Comandos utilizados en el proceso:
 
-**1. git clone [[repositorioAClonar](https://github.com/SantiagoomC/devjumpers.git "repositorioAClonar")] **
-**1. cd [nombreDeLaCarpeta] **
-**2. touch README.md**
-**3. touch 1.txt**
-**4. git checkout -b v0.2**
-**5. touch 2.txt**
-**6. git merge v0.2**
-**7. echo "Hola" > 1.txt**
-**8. echo "Adios" > 1.txt**
-**9. git branch --merged**
-**10. git branch --no-merged**
-**11. git branch -d v0.2**
+- git clone [[repositorioAClonar](https://github.com/SantiagoomC/devjumpers.git "repositorioAClonar")] 
+- cd [nombreDeLaCarpeta] 
+- touch README.md
+- touch 1.txt
+- git checkout -b v0.2
+- touch 2.txt
+- git merge v0.2
+- echo "Hola" > 1.txt
+- echo "Adios" > 1.txt
+- git branch --merged
+- git branch --no-merged
+- git branch -d v0.2
 
 
 
